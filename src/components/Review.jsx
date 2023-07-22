@@ -4,7 +4,9 @@ export default function Review() {
     return (
         <>
             <section className='mt-2'>
+                
                 <div className='lg:grid lg:grid-cols-3 lg:place-items-center'>
+                    
                     <div className='p-3 space-y-3  lg:w-3/4 lg:h-full'>
                         <img className='w-1/6' src="../images/one.webp" alt="" />
                         <h2 className='text-2xl font-bold'>Review the business</h2>
@@ -20,6 +22,7 @@ export default function Review() {
                             </ul>
                         </details>
                     </div>
+                    
                     <div className='p-3 space-y-3  lg:w-3/4 lg:h-full'>
                         <img className='w-1/6' src="../images/two.webp" alt="" />
                         <h2 className='text-2xl font-bold'>Develop the solution</h2>
@@ -44,6 +47,7 @@ export default function Review() {
                             </ul>
                         </details>
                     </div>
+
                     <div className='p-3 space-y-3  lg:w-3/4 lg:h-full'>
                         <img className='w-1/6' src="../images/three.webp" alt="" />
                         <h2 className='text-2xl font-bold'>Support post delivery</h2>
@@ -82,7 +86,9 @@ export default function Review() {
                             </ul>
                         </details>
                     </div>
+
                 </div>
+
             </section>
         </>
     )

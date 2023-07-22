@@ -3,7 +3,7 @@ import React from 'react'
 export default function Helping_hand() {
   return (
     <>
-      <section>
+      <section className='lg:mt-40'>
         <div className='p-5 space-y-4 lg:flex lg:flex-row-reverse items-center justify-center lg:space-x-5'>
 
           <div className=' lg:w-3/5'>
