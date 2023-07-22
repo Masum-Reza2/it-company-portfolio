@@ -66,7 +66,7 @@ export default function Navbar() {
                     Careers
                 </li>
 
-                <button className='bg-blue-500 w-[100%] text-white font-bold p-2 rounded-full lg:w-40 lg:rounded-md lg:mr-5 hover:translate-y-[-0.15rem] active:translate-y-[0.15rem]'>Contact-Us</button>
+                <button className='bg-blue-500 w-[90%] text-white font-bold p-2 rounded-full lg:w-40 lg:rounded-md lg:mr-5 hover:translate-y-[-0.15rem] active:translate-y-[0.15rem]'>Contact-Us</button>
             </ul>
         </>
     )
