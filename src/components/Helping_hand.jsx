@@ -7,7 +7,7 @@ export default function Helping_hand() {
         <div className='p-5 space-y-4 lg:flex lg:flex-row-reverse items-center justify-center lg:space-x-5'>
 
           <div className=' lg:w-3/5'>
-            <img className='w-full' src="../images/copmany-formation.png" alt="" />
+            <img className='w-full rounded-md' src="../images/copmany-formation.png" alt="" />
           </div>
 
           <div className='space-y-4'>
