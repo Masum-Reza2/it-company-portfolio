@@ -20,12 +20,12 @@ export default function Navbar() {
                             <img src="../images/logo.svg" alt="logo" />
                         </div>
                         {/* hamburger menu */}
-                        <div className='lg:hidden w-7 opacity-60 hover:cursor-pointer' onClick={toggle}>
+                        <div className='fixed right-4 lg:left-8 lg:top-4 w-7 opacity-60 hover:cursor-pointer' onClick={toggle}>
                             <img className='' src="../images/hamburger.png" alt="hamburger menu" />
                         </div>
                     </nav>
 
-                    <ul id='hamburger' className='toggle_menu flex flex-col items-center font-bold space-y-3 mt-5 text-lg lg:flex-row lg:bg-white lg:justify-between lg:items-center lg:mt-0 lg:pb-5 justify-between'>
+                    <ul id='hamburger' className='hidden flex flex-col items-center font-bold space-y-3 mt-5 text-lg lg:flex-row lg:bg-white lg:justify-between lg:items-center lg:mt-0 lg:pb-5 justify-between'>
                         <li></li>
 
                         <div className='w-32 hidden lg:block'>
