@@ -10,6 +10,7 @@ import Country from './components/Country'
 import Contact_us from './components/Contact_us'
 import Combination from './components/Combination'
 import Form from './components/Form'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +25,7 @@ function App() {
     <Contact_us/>
     <Combination/>
     <Form/>
+    <Footer/>
     </>
   )
 }
