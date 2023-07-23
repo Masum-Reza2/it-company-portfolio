@@ -3,7 +3,7 @@ import React from 'react'
 export default function Review() {
     return (
         <>
-            <section className='mt-2'>
+            <section className='mt-2 max-w-7xl	 m-auto'>
                 
                 <div className='lg:grid lg:grid-cols-3 lg:place-items-center'>
                     

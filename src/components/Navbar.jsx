@@ -8,7 +8,7 @@ export default function Navbar() {
 
     return (
         <>
-           <div className='lg:fixed lg:w-full lg:top-0'>
+           <div className='lg:fixed lg:w-full lg:top-0 max-w-7xl	 m-auto'>
                 <div className='hidden lg:flex space-x-4 justify-end pr-10 bg-gray-200 lg:bg-white pt-3 '>
                     <h1 className='text-xl text-blue-600 font-bold'>You Dream We Build</h1>
                     <img src="../images/rocket.png" alt="rocket image" />

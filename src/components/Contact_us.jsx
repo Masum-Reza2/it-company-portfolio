@@ -3,7 +3,7 @@ import React from 'react'
 export default function Contact_us() {
     return (
         <>
-            <div className='space-y-5'>
+            <div className='space-y-5 mt-10 max-w-7xl	 m-auto'>
                 
                 <h1 className='text-xl text-center mt-3 underline'>Contact Us</h1>
                 <h5 className='text-xl text-center mt-3'>demo@gmail.com</h5>

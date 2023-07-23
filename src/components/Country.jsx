@@ -3,7 +3,7 @@ import React from 'react'
 export default function Country() {
     return (
         <>
-            <div>
+            <div className='max-w-7xl	 m-auto'>
 
                 <div className='flex flex-col items-center justify-center space-y-4'>
                     <div className='w-full '>
