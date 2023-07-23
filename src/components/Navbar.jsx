@@ -25,7 +25,7 @@ export default function Navbar() {
                         </div>
                     </nav>
 
-                    <ul id='hamburger' className='hidden flex flex-col items-center font-bold space-y-3 mt-5 text-lg lg:flex-row lg:bg-white lg:justify-between lg:items-center lg:mt-0 lg:pb-5 justify-between'>
+                    <ul id='hamburger' className='hidden flex fixed top-12 bg-gray-400 w-full p-5 lg:static flex-col items-center font-bold space-y-3 mt-5 text-lg lg:flex-row lg:bg-white lg:justify-between lg:items-center lg:mt-0 lg:pb-5 justify-between'>
                         <li></li>
 
                         <div className='w-32 hidden lg:block'>
