@@ -9,19 +9,21 @@ import Company_phrase from './components/Company_phrase'
 import Country from './components/Country'
 import Contact_us from './components/Contact_us'
 import Combination from './components/Combination'
+import Form from './components/Form'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    {/* <Navbar/>
+    <Navbar/>
     <Helping_hand/>
     <Review/>
     <Company_phrase/>
     <Country/>
     <Contact_us/>
-    <Combination/> */}
+    <Combination/>
+    <Form/>
     </>
   )
 }
